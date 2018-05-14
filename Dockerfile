@@ -1,6 +1,6 @@
 FROM python:3.6-slim
 
-ADD  listcontainers.py  /wikibot
+ADD  listcontainers.py  /redmine-wikibot
 
 RUN pip install python-redmine
 
