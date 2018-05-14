@@ -4,7 +4,7 @@ RUN mkdir redmine-wikibot
 
 WORKDIR redmine-wikibot
 
-ADD  listcontainers.py  redmine-wikibot
+ADD  ./listcontainers.py  .
 
 RUN pip install python-redmine
 
