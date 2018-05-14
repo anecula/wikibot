@@ -135,7 +135,7 @@ class Discover(object):
 
 if __name__ == '__main__':
     config = configparser.SafeConfigParser()
-    config.read('./env-wikibot/rancher.cfg')
+    config.read('../env-wikibot/rancher.cfg')
     dryrun = False
     disc = Discover(config)
     if dryrun:
